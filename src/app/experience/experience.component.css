@@ -1,0 +1,40 @@
+.work-experience-container {
+    width: 80%;
+    margin: auto;
+  }
+  .experience-item {
+    display: flex;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .company-info {
+    width: 20%;
+    background: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .job-description {
+    width: 80%;
+    background: white;
+    padding: 20px;
+  }
+  h2 {
+    margin: 0 0 10px;
+    color: #333;
+    
+  }
+  h1{
+    text-align: center;
+  }
+  p {
+    margin: 0;
+    color: #555;
+  }
+
+  .company-info p{
+    color: whitesmoke;
+
+  }

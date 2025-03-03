@@ -1,0 +1,10 @@
+<div class="progress-container">
+  <h1>Personal Skills</h1>
+    <div class="progress-bar" *ngFor="let language of languages">
+      <div class="label">{{ language.name }}</div>
+      <div class="bar-container">
+        <div class="bar" [ngStyle]="{ 'width': language.percentage + '%' }"></div>
+      </div>
+      <div class="percentage">{{ language.percentage }}%</div>
+    </div>
+  </div>

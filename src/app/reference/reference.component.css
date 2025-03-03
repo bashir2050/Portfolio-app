@@ -1,0 +1,70 @@
+.reference-container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 80%;
+
+    margin-bottom: 10px;
+  }
+  
+  .reference-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .left-side {
+    width: 20%;
+    text-align: left;
+  }
+  
+  .reference-image {
+    width: 30%;
+    border-radius: 50%;
+  }
+  
+  .reference-info {
+    text-align: left;
+  }
+  
+  .name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .job-title {
+    font-size: 1em;
+    color: gray;
+  }
+  
+  .right-side {
+    width: 80%;
+  
+  }
+  h1{
+    text-align: center;
+  }
+  
+  
+  
+  .comment-description {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  
+  .next-page-icon {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .next-page-icon i {
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .next-page-icon i:hover {
+    transform: translateY(4px);
+  }

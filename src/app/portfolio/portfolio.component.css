@@ -1,0 +1,41 @@
+.portfolio-header {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .icons-container {
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+    background-color: #ff5733;
+    color: white;
+  }
+
+  .images-container {
+    margin-top: 30px;
+    display: flex;
+  
+    justify-content:space-between;
+
+    
+  }
+  
+  .image {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
